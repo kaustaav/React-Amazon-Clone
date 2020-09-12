@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react';
+import Header from './Header';
+import './App.css';
+import Home from './Home';
 
 function App() {
 
   return (
     <div className="app">
-      hii
+      <Header/>
+      <Home/>
     </div>
   );
 }
